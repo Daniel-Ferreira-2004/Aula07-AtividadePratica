@@ -6,9 +6,8 @@
 
 .cabecalho {
     display: flex;
-    margin: auto;
-    padding: 1em;
-    padding-bottom: 2em;
+    justify-content: space-evenly;
+    padding: 2em;
     background-color: #6c241c;
     color: white;
 }
@@ -59,7 +58,7 @@ nav ul li {
 
 .historia {
     text-align: center;
-    padding: 2em;
+    padding: 2em 5em;
     background-color: #ccc4b4;
     margin: auto;
 }
@@ -68,7 +67,7 @@ nav ul li {
     font-size: 22px;
 }
 .historia img {
-    width: 100%;
+    width: 70%;
     border-radius: 8px;
 }
 
@@ -108,6 +107,16 @@ nav ul li {
 .contatos {
     background-color: #928770;
     text-align: center;
+    padding: 2em;
+}
+
+.contatos img {
+    width: 20px;
+}
+
+.contatos ul li{
+    justify-content: center;
+    align-items: center;
 }
 footer {
     text-align: center;
