@@ -4,6 +4,7 @@
     list-style-type: none;
     font-style: none;
     text-decoration: none;
+
 }
 
 .cabecalho {
@@ -25,7 +26,7 @@ nav {
 }
 
 nav ul {
-    text-align: end;
+    justify-content: end;
     display: flex;
 }
 
@@ -62,6 +63,16 @@ nav ul li {
 .bemVindo button a {
     color: white;
 }
+
+.bemVindo button:hover {
+    background-color: aliceblue;
+}
+
+.bemVindo button:hover a {
+    color: black;
+}
+
+
 
 .historia {
     text-align: center;
@@ -125,6 +136,7 @@ nav ul li {
     justify-content: center;
     align-items: center;
 }
+
 footer {
     text-align: center;
     background-color: black;
